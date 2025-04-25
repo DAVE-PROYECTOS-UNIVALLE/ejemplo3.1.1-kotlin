@@ -1,6 +1,6 @@
 package com.example.registro_usuarios
 
-class Usuario(nombre: String,
-    password: String) {
+class Usuario( var nombre: String,
+    var password: String) {
 
 }
