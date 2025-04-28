@@ -32,8 +32,9 @@ class registro : AppCompatActivity() {
         btn2.setOnClickListener {
             val intent = Intent(this,
                 MainActivity::class.java)
-            intent.putExtra("nombreUsuario", usuario1.nombre )
-            intent.putExtra("passwordUsuario",usuario1.password)
+            /*intent.putExtra("nombreUsuario", usuario1.nombre )
+            intent.putExtra("passwordUsuario",usuario1.password)*/
+            intent.putExtra("usuario",usuario1)
             startActivity(intent)
         }
 

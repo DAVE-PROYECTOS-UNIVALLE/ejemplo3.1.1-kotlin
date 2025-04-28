@@ -1,6 +1,10 @@
 package com.example.registro_usuarios
 
-class Usuario( var nombre: String,
-    var password: String) {
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+ data class Usuario( var nombre: String,
+    var password: String):Parcelable {
 
 }
